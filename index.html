@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض السيارات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- هيدر الموقع -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="لوجو المعرض">
+        </div>
+        <h1>SoSo Car</h1>
+    </header>
+
+    <!-- معرض الصور -->
+    <main>
+        <div class="gallery">
+            <div class="car" onclick="showDetails('car1')">
+                <img src="images/2015-Toyota-Prado-Car-Rental-Offer-Bur-Dubai.png" alt="Car 1">
+            </div>
+            <div class="car" onclick="showDetails('car2')">
+                <img src="images/CC23_LDDP48_2DN_PAU_APA_XXX_XXX_XXX.2f03e8c4c8e6e89f774cf1c57f508204.png" alt="Car 2">
+            </div>
+            <div class="car" onclick="showDetails('car3')">
+                <img src="images/Range-Rover-PNG-File.png" alt="Car 3">
+            </div>
+            <!-- أضف المزيد من السيارات هنا -->
+            <div class="car" onclick="showDetails('car4')">
+                <img src="images/12601_st0640_116.png" alt="Car 4">
+            </div>
+            <div class="car" onclick="showDetails('car5')">
+                <img src="images/pngimg.com - mercedes_PNG1896.png" alt="Car 5">
+            </div>
+            <!-- أضف المزيد من السيارات هنا -->
+            <div class="car" onclick="showDetails('car6')">
+                <img src="images/bmw-8series-gran-coupe-modelfinder-stage2-890x501.png" alt="Car 6">
+            </div>
+            <div class="car" onclick="showDetails('car7')">
+                <img src="images/m1.png" alt="Car 7">
+            </div>
+            <div class="car" onclick="showDetails('car8')">
+                <img src="images/2024-Nissan-Sentra-PNG-1.png" alt="Car 8">
+            </div>
+        </div>
+    </main>
+
+    <!-- تفاصيل السيارة -->
+    <div id="car-details" class="details">
+        <span class="close" onclick="hideDetails()">&times;</span>
+        <h2 id="car-name"></h2>
+        <p id="car-Engine"></p>
+        <p id="car-power"></p>
+        <p id="car-Price"></p>
+    </div>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>© 2024 معرض السيارات - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
