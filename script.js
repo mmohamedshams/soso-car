@@ -36,6 +36,18 @@ function showDetails(carId) {
             Engine: " Engine: 3.0L I6 / 4.4L V8",
             power: " Power: 335-617 hp (depending on the engine)",
             Price: " Price: Starting from $85,000"
+        },
+        car7: {
+            name: "Mercedes G-Class",
+            Engine: " Engine: 4.0L V8 Biturbo",
+            power: " Power: 416-577 hp",
+            Price: " Price: Starting from $130,000"
+        },
+        car8: {
+            name: "BMW 8 Series",
+            Engine: " Engine: 3.0L I6 / 4.4L V8",
+            power: " Power: 335-617 hp (depending on the engine)",
+            Price: " Price: Starting from $85,000"
         }
     };
 
